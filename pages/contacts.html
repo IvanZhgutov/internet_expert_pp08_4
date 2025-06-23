@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Интернет Эксперт</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <a href="../index.html" class="logo">
+      <img src="../icons/logo.svg" alt="logo">
+    </a>
+    <div class="burger" id="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html">Главная</a>
+      <a href="./about.html">О нас</a>
+      <a href="./tech.html">Технологии</a>
+      <a href="./contacts.html">Контакты</a>
+      <a href="contacts.html#consult" class="header-cta">Обсудить проект</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contacts-main container" id="contacts">
+      <div class="contacts-hero">
+        <div class="contacts-hero-content">
+          <h1>Свяжитесь с нами</h1>
+          <div class="contacts-hero-info">
+            <div><strong>Адрес:</strong> г. Сергиев Посад, ул. Пионерская 6, 3 этаж, офис 324</div>
+            <div><strong>Телефон:</strong> <a href="tel:+74951527255" class="contacts-hero-link">8 (495) 152-72-55</a></div>
+            <div><strong>Email:</strong> <a href="mailto:info@internet-expert.ru" class="contacts-hero-link">info@internet-expert.ru</a></div>
+            <div><strong>Время работы:</strong> с 9:00 до 18:00 по будням</div>
+            <div class="contacts-hero-social"><strong>Мы в соцсетях:</strong> 
+              <a href="https://t.me/internet-expert" target="_blank" class="contacts-hero-link">Telegram</a>
+              <a href="https://vk.com/internet-expert" target="_blank" class="contacts-hero-link">VK</a>
+              <a href="https://wa.me/74951527255" target="_blank" class="contacts-hero-link">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-illustration">
+          <img class="hero-illustration-image" src="../images/illustration_contact.jpg" alt="Контакт иллюстрация">
+        </div>
+      </div>
+      
+      <div class="contacts-map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A08f1f4153406457317f259740e5362e62e1a3c6139158913388a10113c242ffa&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+
+      <div class="contacts-form" id="consult">
+        <h2>Свяжитесь с нами</h2>
+        <form action="#" method="post">
+          <div class="form-row">
+            <input type="text" name="first_name" placeholder="Имя" required>
+            <input type="text" name="last_name" placeholder="Фамилия" required>
+          </div>
+          <div class="form-row">
+            <input type="tel" name="phone" placeholder="Номер телефона" required>
+          </div>
+          <div class="form-row">
+            <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="privacy" name="privacy" required>
+            <label for="privacy">Я согласен с <a href="#">политикой обработки персональных данных</a></label>
+          </div>
+          <button type="submit" class="btn-accent">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-nav">
+      <a href="../index.html">Главная</a>
+      <a href="about.html">О нас</a>
+      <a href="tech.html">Технологии</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+    <div class="footer-extra">
+      <p>© 2024 Интернет Эксперт — ваш digital-партнёр</p>
+      <div class="footer-icons">
+        <span>🌐</span>
+        <span>💡</span>
+        <span>🚀</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
